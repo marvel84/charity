@@ -4,12 +4,11 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title> Charity | Teamplate</title>
+    <title> Aplikasi Donasi Tzu Chi</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="manifest" href="site.webmanifest">
-    <link rel="shortcut icon" type="image/x-icon"
-        href="{{ asset('template/charityworks-master/assets/img/favicon.ico') }}">
+    <link rel="shortcut icon" type="image/x-icon" href="{{ asset('assets/image/logo.png') }}">
 
     <!-- CSS here -->
     <link rel="stylesheet" href="{{ asset('template/charityworks-master/assets/css/bootstrap.min.css') }}">
@@ -35,7 +34,7 @@
             <div class="preloader-inner position-relative">
                 <div class="preloader-circle"></div>
                 <div class="preloader-img pere-text">
-                    <img src="{{ asset('template/charityworks-master/assets/img/logo/loder.png') }}" alt="">
+                    <img src="{{ asset('assets/image/logo.png') }}" alt="logo tzu chi">
                 </div>
             </div>
         </div>
@@ -51,16 +50,19 @@
                             <div class="row d-flex justify-content-between align-items-center">
                                 <div class="header-info-left d-flex">
                                     <ul>
-                                        <li>Phone: +99 (0) 101 0000 888</li>
-                                        <li>Email: noreply@yourdomain.com</li>
+                                        <li>Phone: +62 21 55963680</li>
+                                        <li>Email: tzuchiind@tzuchi.or.id</li>
                                     </ul>
                                     <div class="header-social">
                                         <ul>
-                                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                            <li><a href="https://www.facebook.com/sai4ull"><i
+                                            <li><a href="https://www.instagram.com/tzuchiindonesia/"><i
+                                                        class="fab fa-instagram"></i></a></li>
+                                            <li><a href="https://www.facebook.com/tzuchiindonesia/"><i
                                                         class="fab fa-facebook-f"></i></a></li>
-                                            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                                            <li> <a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                                            <li><a href="https://www.youtube.com/channel/UCfywSuUWqtJOLO10alVtXRA"><i
+                                                        class="fab fa-youtube"></i></a></li>
+                                            <li> <a href="https://twitter.com/tzuchiindonesia"><i
+                                                        class="fab fa-twitter"></i></a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -69,17 +71,11 @@
                                         <form action="#">
                                             <div class="select-itms">
                                                 <select name="select" id="select1">
-                                                    <option value="">English</option>
-                                                    <option value="">Bangla</option>
-                                                    <option value="">Arabic</option>
-                                                    <option value="">Hindi</option>
+                                                    <option value="">Indonesia</option>
                                                 </select>
                                             </div>
                                         </form>
                                     </div>
-                                    <ul class="contact-now">
-                                        <li><a href="#">Subscribe Now</a></li>
-                                    </ul>
                                 </div>
                             </div>
                         </div>
@@ -91,9 +87,8 @@
                             <!-- Logo -->
                             <div class="col-xl-2 col-lg-2">
                                 <div class="logo">
-                                    <a href="index.html"><img
-                                            src="{{ asset('template/charityworks-master/assets/img/logo/logo.png') }}"
-                                            alt=""></a>
+                                    <a href="index.html"><img src="{{ asset('assets/image/logo.png') }}"
+                                            alt="logo tzu chi" style="width:7em; aspect-ratio:2/1;"></a>
                                 </div>
                             </div>
                             <div class="col-xl-10 col-lg-10">
@@ -103,17 +98,13 @@
                                         <nav>
                                             <ul id="navigation">
                                                 <li><a href="index.html">Home</a></li>
-                                                <li><a href="about.html">About</a></li>
-                                                <li><a href="program.html">latest causes</a></li>
-                                                <li><a href="events.html">social events </a></li>
+                                                <li><a href="about.html">Tentang Kami</a></li>
                                                 <li><a href="blog.html">Blog</a>
                                                     <ul class="submenu">
                                                         <li><a href="blog.html">Blog</a></li>
-                                                        <li><a href="blog_details.html">Blog Details</a></li>
-                                                        <li><a href="elements.html">Element</a></li>
                                                     </ul>
                                                 </li>
-                                                <li><a href="contact.html">Contact</a></li>
+                                                <li><a href="contact.html">Kontak Kami</a></li>
                                             </ul>
                                         </nav>
                                     </div>
@@ -148,9 +139,9 @@
                                 <div class="single-footer-caption mb-30">
                                     <div class="footer-tittle">
                                         <div class="footer-logo mb-20">
-                                            <a href="index.html"><img
-                                                    src="{{ asset('template/charityworks-master/assets/img/logo/logo2_footer.png') }}"
-                                                    alt=""></a>
+                                            <a href="index.html"><img src="{{ asset('assets/image/logo.png') }}"
+                                                    alt="gambar logo tzu chi"
+                                                    style="width:20em; aspect-ratio:2/1;"></a>
                                         </div>
                                     </div>
                                 </div>
@@ -162,10 +153,11 @@
                                     <h4>Contact Info</h4>
                                     <ul>
                                         <li>
-                                            <p>Address :Your address goes here, your demo address.</p>
+                                            <p>Address :Tzu Chi Center, Pantai Indah Kapuk, Jakarta Utara 14470</p>
                                         </li>
-                                        <li><a href="#">Phone : +8880 44338899</a></li>
-                                        <li><a href="#">Email : info@colorlib.com</a></li>
+                                        <li><a href="tel:+62 21 55963680">Phone : +62 21 55963680</a></li>
+                                        <li><a href="mailto:tzuchiind@tzuchi.or.id">Email : tzuchiind@tzuchi.or.id</a>
+                                        </li>
                                     </ul>
                                 </div>
 
@@ -174,44 +166,13 @@
                         <div class="col-xl-3 col-lg-3 col-md-4 col-sm-5">
                             <div class="single-footer-caption mb-50">
                                 <div class="footer-tittle">
-                                    <h4>Important Link</h4>
+                                    <h4>Link</h4>
                                     <ul>
-                                        <li><a href="#"> View Project</a></li>
-                                        <li><a href="#">Contact Us</a></li>
-                                        <li><a href="#">Testimonial</a></li>
-                                        <li><a href="#">Proparties</a></li>
-                                        <li><a href="#">Support</a></li>
+                                        <li><a href="#"> Home</a></li>
+                                        <li><a href="#">Tentang Kami</a></li>
+                                        <li><a href="#">Blog</a></li>
+                                        <li><a href="#">Kontak Kami</a></li>
                                     </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-3 col-lg-3 col-md-4 col-sm-5">
-                            <div class="single-footer-caption mb-50">
-                                <div class="footer-tittle">
-                                    <h4>Newsletter</h4>
-                                    <div class="footer-pera footer-pera2">
-                                        <p>Heaven fruitful doesn't over lesser in days. Appear creeping.</p>
-                                    </div>
-                                    <!-- Form -->
-                                    <div class="footer-form">
-                                        <div id="mc_embed_signup">
-                                            <form target="_blank"
-                                                action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01"
-                                                method="get" class="subscribe_form relative mail_part">
-                                                <input type="email" name="email" id="newsletter-form-email"
-                                                    placeholder="Email Address" class="placeholder hide-on-focus"
-                                                    onfocus="this.placeholder = ''"
-                                                    onblur="this.placeholder = ' Email Address '">
-                                                <div class="form-icon">
-                                                    <button type="submit" name="submit" id="newsletter-submit"
-                                                        class="email_icon newsletter-submit button-contactForm"><img
-                                                            src="{{ asset('template/charityworks-master/assets/img/gallery/form.png') }}"
-                                                            alt=""></button>
-                                                </div>
-                                                <div class="mt-10 info"></div>
-                                            </form>
-                                        </div>
-                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -238,10 +199,13 @@
                             </div>
                             <div class="col-xl-2 col-lg-3">
                                 <div class="footer-social f-right">
-                                    <a href="#"><i class="fab fa-twitter"></i></a>
-                                    <a href="https://www.facebook.com/sai4ull"><i class="fab fa-facebook-f"></i></a>
-                                    <a href="#"><i class="fas fa-globe"></i></a>
-                                    <a href="#"><i class="fab fa-behance"></i></a>
+                                    <a href="https://www.instagram.com/tzuchiindonesia/"><i
+                                            class="fab fa-instagram"></i></a>
+                                    <a href="https://www.facebook.com/tzuchiindonesia/"><i
+                                            class="fab fa-facebook-f"></i></a>
+                                    <a href="https://www.youtube.com/channel/UCfywSuUWqtJOLO10alVtXRA"><i
+                                            class="fab fa-youtube"></i></a>
+                                    <a href="https://twitter.com/tzuchiindonesia"><i class="fab fa-twitter"></i></a>
                                 </div>
                             </div>
                         </div>

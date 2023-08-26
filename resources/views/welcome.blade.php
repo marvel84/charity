@@ -10,9 +10,12 @@
                         <div class="row">
                             <div class="col-xl-6 col-lg-6 col-md-8 col-sm-10">
                                 <div class="hero__caption">
-                                    <h1 data-animation="fadeInUp" data-delay=".6s">Our Helping to<br> the world.</h1>
-                                    <P data-animation="fadeInUp" data-delay=".8s">Onsectetur adipiscing elit, sed do eiusmod
-                                        tempor incididunt ut bore et dolore magnt, sed do eiusmod.</P>
+                                    <h1 data-animation="fadeInUp" data-delay=".6s">Bantu Kami<br> :(</h1>
+                                    <P data-animation="fadeInUp" data-delay=".8s">
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex deserunt illo, tempore
+                                        mollitia quas labore facilis quidem ad! Eum, non eius facere sint perspiciatis
+                                        molestiae totam dolorum soluta voluptatum laboriosam?
+                                    </P>
                                     <!-- Hero-btn -->
                                     <div class="hero__btn">
                                         <a href="industries.html" class="btn hero-btn mb-10" data-animation="fadeInLeft"
@@ -20,7 +23,7 @@
                                         <a href="industries.html" class="cal-btn ml-15" data-animation="fadeInRight"
                                             data-delay="1.0s">
                                             <i class="flaticon-null"></i>
-                                            <p>+12 1325 41</p>
+                                            <p>+62 21 55963680</p>
                                         </a>
                                     </div>
                                 </div>
@@ -243,7 +246,7 @@
         <!-- Our Cases End -->
         <!-- Featured_job_start -->
         <section class="featured-job-area section-padding30 section-bg2"
-            data-background="{{ asset('assets/img/gallery/section_bg03.png') }}">
+            data-background="{{ asset('template/charityworks-master/assets/img/gallery/section_bg03.png') }}">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-xl-7 col-lg-9 col-md-10 col-sm-12">
@@ -418,7 +421,7 @@
         <section class="wantToWork-area ">
             <div class="container">
                 <div class="wants-wrapper w-padding2  section-bg"
-                    data-background="{{ asset('assets/img/gallery/section_bg01.png') }}">
+                    data-background="{{ asset('template/charityworks-master/assets/img/gallery/section_bg01.png') }}">
                     <div class="row align-items-center justify-content-between">
                         <div class="col-xl-5 col-lg-9 col-md-8">
                             <div class="wantToWork-caption wantToWork-caption2">
@@ -446,54 +449,16 @@
                                     <!-- founder -->
                                     <div class="testimonial-founder">
                                         <div class="founder-img mb-40">
-                                            <img src="{{ asset('template/charityworks-master/assets/img/gallery/testimonial.png') }}"
-                                                alt="">
-                                            <span>Margaret Lawson</span>
-                                            <p>Creative Director</p>
+                                            <img src="{{ asset('assets/image/master cheng yen.jpg') }}"
+                                                alt="gambar master cheng yen"
+                                                style="width:20em; aspect-ratio:1/1; border-radius:2em;">
+                                            <span>Master Cheng Yen</span>
+                                            <p>Penemu Tzu Chi</p>
                                         </div>
                                     </div>
                                     <div class="testimonial-top-cap">
-                                        <p>“I am at an age where I just want to be fit and healthy our bodies are our
-                                            responsibility! So start caring for your body and it will care for you. Eat
-                                            clean it will care for you and workout hard.”</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Single Testimonial -->
-                            <div class="single-testimonial text-center">
-                                <div class="testimonial-caption ">
-                                    <!-- founder -->
-                                    <div class="testimonial-founder">
-                                        <div class="founder-img mb-40">
-                                            <img src="{{ asset('template/charityworks-master/assets/img/gallery/testimonial.png') }}"
-                                                alt="">
-                                            <span>Margaret Lawson</span>
-                                            <p>Creative Director</p>
-                                        </div>
-                                    </div>
-                                    <div class="testimonial-top-cap">
-                                        <p>“I am at an age where I just want to be fit and healthy our bodies are our
-                                            responsibility! So start caring for your body and it will care for you. Eat
-                                            clean it will care for you and workout hard.”</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Single Testimonial -->
-                            <div class="single-testimonial text-center">
-                                <div class="testimonial-caption ">
-                                    <!-- founder -->
-                                    <div class="testimonial-founder">
-                                        <div class="founder-img mb-40">
-                                            <img src="{{ asset('template/charityworks-master/assets/img/gallery/testimonial.png') }}"
-                                                alt="">
-                                            <span>Margaret Lawson</span>
-                                            <p>Creative Director</p>
-                                        </div>
-                                    </div>
-                                    <div class="testimonial-top-cap">
-                                        <p>“I am at an age where I just want to be fit and healthy our bodies are our
-                                            responsibility! So start caring for your body and it will care for you. Eat
-                                            clean it will care for you and workout hard.”</p>
+                                        <p>“Berdana bukanlah hak khusus yang dimiliki orang kaya, melainkan merupakan
+                                            perwujudan dari sebuah cinta kasih yang tulus.”</p>
                                     </div>
                                 </div>
                             </div>
@@ -562,7 +527,7 @@
         <!-- Blog Area End -->
         <!--? Count Down Start -->
         <div class="count-down-area pt-25 section-bg"
-            data-background="{{ asset('assets/img/gallery/section_bg02.png') }}">
+            data-background="{{ asset('template/charityworks-master/assets/img/gallery/section_bg02.png') }}">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-12 col-md-12">
