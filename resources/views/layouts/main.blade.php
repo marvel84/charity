@@ -87,7 +87,7 @@
                             <!-- Logo -->
                             <div class="col-xl-2 col-lg-2">
                                 <div class="logo">
-                                    <a href="index.html"><img src="{{ asset('assets/image/logo.png') }}"
+                                    <a href="{{ route('welcome') }}"><img src="{{ asset('assets/image/logo.png') }}"
                                             alt="logo tzu chi" style="width:7em; aspect-ratio:2/1;"></a>
                                 </div>
                             </div>
@@ -97,20 +97,20 @@
                                     <div class="main-menu d-none d-lg-block">
                                         <nav>
                                             <ul id="navigation">
-                                                <li><a href="index.html">Home</a></li>
-                                                <li><a href="about.html">Tentang Kami</a></li>
+                                                <li><a href="{{ route('welcome') }}">Home</a></li>
+                                                <li><a href="{{ route('about') }}">Tentang Kami</a></li>
                                                 <li><a href="blog.html">Blog</a>
                                                     <ul class="submenu">
                                                         <li><a href="blog.html">Blog</a></li>
                                                     </ul>
                                                 </li>
-                                                <li><a href="contact.html">Kontak Kami</a></li>
+                                                <li><a href="{{ route('contact') }}">Kontak Kami</a></li>
                                             </ul>
                                         </nav>
                                     </div>
                                     <!-- Header-btn -->
                                     <div class="header-right-btn d-none d-lg-block ml-20">
-                                        <a href="contact.html" class="btn header-btn">Donate</a>
+                                        <a href="{{ route('contact') }}" class="btn header-btn">Donate</a>
                                     </div>
                                 </div>
                             </div>
@@ -139,7 +139,8 @@
                                 <div class="single-footer-caption mb-30">
                                     <div class="footer-tittle">
                                         <div class="footer-logo mb-20">
-                                            <a href="index.html"><img src="{{ asset('assets/image/logo.png') }}"
+                                            <a href="{{ route('welcome') }}"><img
+                                                    src="{{ asset('assets/image/logo.png') }}"
                                                     alt="gambar logo tzu chi"
                                                     style="width:20em; aspect-ratio:2/1;"></a>
                                         </div>
